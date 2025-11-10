@@ -27,6 +27,10 @@ export function PomodoroTimer({ task, onClose }: PomodoroTimerProps) {
         setTimeLeft(prev => prev - 1);
       }, 1000);
     } else if (timeLeft === 0) {
+      // شغل الصوت
+      new Audio('/alarm.mp3').play();
+
+      // الإشعار إذا متفعل
       if (Notification.permission === 'granted') {
         new Notification('نماء | Namaa', {
           body: isBreak 
@@ -34,7 +38,8 @@ export function PomodoroTimer({ task, onClose }: PomodoroTimerProps) {
             : (language === 'ar' ? 'حان وقت الراحة!' : 'Time for a break!'),
         });
       }
-      
+
+      // تغيير الوضع وإعادة ضبط الوقت
       setIsBreak(!isBreak);
       setTimeLeft((isBreak ? focusMinutes : breakMinutes) * 60);
       setIsRunning(false);
