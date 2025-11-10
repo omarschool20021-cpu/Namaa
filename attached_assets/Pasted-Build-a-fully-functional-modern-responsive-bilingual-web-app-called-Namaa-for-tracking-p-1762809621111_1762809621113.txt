@@ -1,0 +1,199 @@
+Build a fully functional, modern, responsive, bilingual web app called "نماء" (Namaa) for tracking personal faith, study, and productivity. Use React, Tailwind CSS, HTML, and JavaScript, and store all data in Local Storage.
+
+Design & Theme
+
+White & gold theme (elegant, modern, clean)
+
+Rounded cards, soft shadows, smooth animations
+
+Minimal subtle football ⚽ icons (small & optional)
+
+Dark/Light mode toggle
+
+Intro animation / landing screen when opening the website (full-screen logo or motivational animation)
+
+Fully responsive for desktop and mobile
+
+Proper Arabic (rtl) and English (ltr) support with language toggle
+
+SPA → transitions without reloading pages
+
+🔐 Login System
+
+Sign In / Sign Up form (username + password)
+
+User’s name saved and used dynamically in greetings
+
+Data per user saved in Local Storage
+
+Logout button in settings
+
+🏠 Home Dashboard
+
+Auto-updating today’s date
+
+Greeting using saved username
+
+Editable daily intention / goal
+
+Daily progress bars (Tasks, Prayers, Quran, Lessons)
+
+Daily motivational quote
+
+Daily Quranic verse inspiration
+
+Optional micro-productivity tip
+
+Upcoming reminders / alarms preview
+
+✅ Task Management (with Pomodoro)
+
+Add/Edit/Delete tasks
+
+Checkbox animations
+
+Filters: Today / This Week
+
+Priority flags
+
+Pomodoro timer integration: circular animation, customizable focus/break duration, soft chime
+
+Greeting: “Welcome to your tasks, [Name]!”
+
+☪️ Prayer Tracker
+
+5 daily prayers (Fajr, Dhuhr, Asr, Maghrib, Isha)
+
+Checkbox per prayer
+
+End-of-day messages (perfect or encouragement)
+
+Greeting: "Time for your prayers, [Name]!"
+
+📖 Quran Tracker
+
+User sets custom Quran reading goal:
+
+Type: Page / Juz’ / Quarter / Hizb
+
+Quantity: number input
+
+Dynamic checkboxes for each item
+
+Completion messages
+
+Greeting: "Keep up your Quran reading, [Name]!"
+
+🎓 Lessons Tracker
+
+User adds new days manually
+
+Each day has: Focus, Interaction, Homework, Mistake Reduction, Respect & Discipline
+
+Add mini-tasks linked to lessons
+
+Weekly averages & improvement summary
+
+Greeting: "Ready to learn, [Name]!"
+
+📅 Weekly Overview
+
+Daily summaries for all sections
+
+Auto-reset weekly with optional archive
+
+Weekly report highlights missing items
+
+Greeting: "Here’s your week at a glance, [Name]!"
+
+📊 Charts / Statistics (New Feature)
+
+Weekly / monthly charts for:
+
+Tasks completion
+
+Prayers completion
+
+Quran Werd completion
+
+Lessons metrics
+
+Visual progress tracking motivates the user
+
+Can be displayed on Dashboard or Weekly Overview
+
+💡 Motivation Page
+
+Random motivational quotes (faith + productivity)
+
+Add custom quotes
+
+Optional daily micro-challenges
+
+Greeting: "Your daily motivation, [Name]!"
+
+⏰ Alarm / Reminder System
+
+Add reminders for tasks, prayers, lessons
+
+Set time + repeat (daily/weekly)
+
+Browser notifications + optional sound
+
+Upcoming reminders on dashboard
+
+⚙️ Settings Page
+
+Change username dynamically
+
+Dark/Light mode toggle
+
+Language switch
+
+Font size control
+
+Reset all data
+
+Backup / Restore feature:
+
+Export all data (tasks, prayers, lessons, Quran) to JSON
+
+Import JSON to restore saved data
+
+Logout button
+
+Greeting: "Welcome to settings, [Name]!"
+
+Technical Notes
+
+SPA (no reload between pages)
+
+All data in Local Storage per user
+
+Smooth animations (progress bars, checkboxes, Pomodoro, charts)
+
+Intro animation on first load
+
+Subtle football icons only
+
+Elegant white & gold theme
+
+💫 Deliverable
+
+A modern, elegant, bilingual productivity & faith web app “نماء | Namaa” with:
+
+Login system with dynamic username
+
+Pomodoro timer
+
+Custom Quran Werds
+
+Lessons with manual day addition
+
+Charts / statistics
+
+Backup / restore
+
+Alarm / reminder system
+
+Single-page seamless navigation
